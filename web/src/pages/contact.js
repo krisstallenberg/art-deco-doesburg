@@ -36,7 +36,7 @@ export const query = graphql`
   }
 `;
 
-const ArchivePage = props => {
+const ContactPage = props => {
   const { data, errors } = props;
   if (errors) {
     return (
@@ -49,13 +49,12 @@ const ArchivePage = props => {
     data && data.projects && mapEdgesToNodes(data.projects).filter(filterOutDocsWithoutSlugs);
   return (
     <Layout>
-      <SEO title="Archive" />
+      <SEO title="Contact" />
       <Container>
-        <h1 className={responsiveTitle1}>Projects</h1>
-        {projectNodes && projectNodes.length > 0 && <ProjectPreviewGrid nodes={projectNodes} />}
+        <p>Contact informatie</p>
       </Container>
     </Layout>
   );
 };
 
-export default ArchivePage;
+export default ContactPage;
