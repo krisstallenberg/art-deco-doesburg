@@ -2,11 +2,15 @@
 
 .root {
   box-sizing: border-box;
-  max-width: 960px;
+  max-width: 650px;
   padding: 1.5em;
   margin: 0 auto;
 
   @media (--media-min-small) {
     padding: 2em;
   }
+}
+
+address {
+  font-style: normal;
 }
