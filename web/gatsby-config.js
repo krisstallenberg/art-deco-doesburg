@@ -14,7 +14,6 @@ module.exports = {
     'gatsby-plugin-image',
     'gatsby-plugin-react-helmet',
     `gatsby-plugin-sharp`,
-    `gatsby-source-filesystem`,
     `gatsby-transformer-sharp`,
     {
       resolve: 'gatsby-source-sanity',
