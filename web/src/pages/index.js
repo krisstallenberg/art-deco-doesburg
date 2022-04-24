@@ -88,14 +88,6 @@ const IndexPage = props => {
     <Layout>
       <SEO title={site.title} description={site.description} keywords={site.keywords} />
       <Container>
-        <StaticImage
-          src="../images/Art-deco-doesburg-vierkant.jpeg"
-          alt="Binnen bij Art deco Doesburg"
-          placeholder="blurred"
-          layout="fixed"
-          width={200}
-          height={200}
-        />
         <p>
           Art deco Doesburg is een samenwerking van Willem Hengst van Galerie Tandem in Gendringen en
           Ger Stallenberg van Het Ware Huis in Lage Mierde. Beide handelaren zijn specialist in art
